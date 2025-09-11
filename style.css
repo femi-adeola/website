@@ -612,7 +612,6 @@ ltc-paragraph2 {
   margin-left: 25px;
   margin-right: 25px;
 }
-
 @media only screen and (max-width: 768px) {
   body {
     width: 100%;
@@ -2034,5 +2033,10 @@ ltc-paragraph2 {
   .mastercard {
     margin-left: 25px;
     margin-right: 25px;
+  }
+
+  .start{
+    padding-left:50px;
+    display: none;
   }
 }
