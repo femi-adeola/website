@@ -466,65 +466,43 @@ padding-bottom:45px;
   font-size: 45px;
   margin-left: 650px;
 }
+ 
+.invest-bitcoin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+.topic-1, 
+.topic-11,
+.topic-111{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.topic-2,
+.topic-22,
+.topic-222{
+  color: white;
+  padding-bottom: 25px;
+}
+
+.new-one,
+.new-two,
+.new-three{
+  height: 400px;
+  width: 500px;
+  padding-top: 50px;
+}
 
 
-  .invest-bitcoin,
-  .detailed-statistic {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: auto;
-    max-width: 100%;
-    align-items: center;
-  
-    gap:50px;
-    margin-bottom:100px;
-
-  }
-  .invest-bitcoin{
-    margin-bottom:100px;
-  }
-
-  .left-sectionI,
-  .right-sectionI,
-  .left-sectionD,
-  .right-sectionD{
-    width: 45%;
-  }
-
-  .left-sectionI{
-    padding-left: 60px;
-  }
-
-  .topic-1{
-    font-size: 60px;
-    color: white;
-  }
-
-  .topic-11{
-    font-weight: bold;
-    font-size: 40px;
-    white-space: normal;
-    overflow-wrap: break-word;
-  }
-
-  
-  .topic-2 {
-    line-height: 1.8;
-    font-size: 18px;
-    color: white;
-  }
-
-  .topic-1,
-   .topic-11{
-    font-size: 40px;
-    color: white;
-    margin-bottom: 10px;
-   }
-
-
-  .learn-more {
-    background-color: rgb(67, 67, 165);
+.learn-more {
+   background-color: rgb(67, 67, 165);
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 25px;
@@ -533,46 +511,31 @@ padding-bottom:45px;
     border-color: transparent;
     color: white;
     font-size: 10px;
-    margin-top: 25px;
+    margin-top: 5px;
     white-space: nowrap;
   }
-  .right-sectionI{
-     width: 50%;
-  }
-
-  .new-two{
-    height: 400px;
-    width: 650px;
-
-  }
-
-  .detailed-statistic {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: auto;
-    max-width: 100%;
-    align-items: center;
-    padding-top:50px;
-    margin-bottom:80px;
 
 
-  }
+.detailed-statistic{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
 
-  .left-sectionD {
-    margin-bottom: 24px;
-  }
 
-  .right-sectionD {
-    max-width: 50%;
-    margin-bottom: 80px;
-  }
-  
-  .left-sectionI,
-  .right-sectionI{
-    margin-bottom: 50px;
-  }
+.grow-profit{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
 
+ 
 
 .start {
   padding-top: 80px;
@@ -582,7 +545,6 @@ padding-bottom:45px;
 }
 
 .last-image {
-  
   background-color: rgba(13, 13, 43, 1);
   margin-top: 0px;
 }
@@ -631,6 +593,9 @@ padding-bottom:45px;
   margin-left: 25px;
   margin-right: 25px;
 }
+
+
+
 @media only screen and (max-width: 768px) {
   body {
     max-width: 768px;
@@ -760,20 +725,17 @@ padding-bottom:45px;
   }
 
   .second-image {
-    
     height: 400px;
-    width: 350px;
-    padding-bottom:50px
-    
+    width: 300px; 
   }
 
   .header-2 {
      background-color: #0d0d2b;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding-bottom: 100px;
-  padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
 
   .left {
@@ -980,8 +942,7 @@ padding-bottom:45px;
   border-radius: 20px;
   background-color: rgb(26, 26, 94);
   padding: 30px;
-  margin-right: 80px;
-  margin-left: 80px;
+
 }
 
 .btc-image {
@@ -1122,49 +1083,45 @@ padding-bottom:45px;
     font-size: 25px;
     margin-left: 230px;
   }
-
-
-  .invest-bitcoin {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 100%;
-    align-items: center;
-    padding-top:50px;
-    margin-bottom:0px;
-    padding-right: 100px;
-  }
-
-  .left-sectionI{
-  padding-right: 50px;
-  white-space: nowrap;
-  }
-
-
-  .topic-11{
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  
-  .topic-2 {
-    font-size: 10px;
-    color: white;
-  }
   
 
-  .topic-1{
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-  }
+   
+.invest-bitcoin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
 
-  .right-sectionI{
-    max-width:50%;
-  }
+.topic-1, 
+.topic-11,
+.topic-111{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 
-  .learn-more {
-    background-color: rgb(67, 67, 165);
+.topic-2,
+.topic-22,
+.topic-222{
+  color: white;
+  padding-bottom: 25px;
+}
+
+.new-one,
+.new-two,
+.new-three{
+  height: 300px;
+  width: 400px;
+  padding-top: 50px;
+}
+
+
+.learn-more {
+   background-color: rgb(67, 67, 165);
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 25px;
@@ -1173,38 +1130,30 @@ padding-bottom:45px;
     border-color: transparent;
     color: white;
     font-size: 10px;
-    margin-top: 25px;
+    margin-top: 5px;
     white-space: nowrap;
-  }
-  .right-sectionI{
-     width: 50%;
-  }
-
-  .new-two{
-    height: 200px;
-    width: 250px;
-  }
-
-  .detailed-statistic {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     margin: auto;
-    max-width: 100%;
-    align-items: center;
-    padding-top:50px;
-    margin-bottom:0px;
-
   }
 
-  .left-sectionD {
-    margin-bottom: 24px;
-  }
 
-  .right-sectionD {
-    max-width: 50%;
-    margin-bottom: 80px;
-  }
+.detailed-statistic{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+
+.grow-profit{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
 
 
   .last-image {
@@ -1787,56 +1736,77 @@ padding-bottom:45px;
     font-size: 25px;
     margin-left: 150px;
   }
-  .invest-bitcoin,
-  .detailed-statistic {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 40px 20px;
-    gap: 30px;
-    margin-bottom:0px;
-  }
 
-  .left-sectionI,
-  .right-sectionI,
-  .left-sectionD,
-  .right-sectionD {
-    width: 100%;
-    padding: 0;
-    margin: 15px 0;
-  }
-
-  
-  .topic-1 {
-    font-size: 36px;
-  }
-
-  .topic-11 {
-    font-size: 30px;
-  }
-
-  .topic-2 {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-
-  
-  .learn-more {
-    width: 140px;
-    height: 40px;
-    font-size: 14px;
-    margin-top: 10px;
-  }
-
-  
-  .new-two {
-    width: 85%;
-    max-width: 350px;
-    height: auto;
-    margin-top: 15px;
-  }
+     
+.invest-bitcoin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
 }
+
+.topic-1, 
+.topic-11,
+.topic-111{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.topic-2,
+.topic-22,
+.topic-222{
+  color: white;
+  padding-bottom: 25px;
+}
+
+.new-one,
+.new-two,
+.new-three{
+  height: 300px;
+  width: 400px;
+  padding-top: 50px;
+}
+
+
+.learn-more {
+   background-color: rgb(67, 67, 165);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 45px;
+    border-color: transparent;
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+    white-space: nowrap;
+    margin: auto;
+  }
+
+
+.detailed-statistic{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+
+.grow-profit{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+
 
   .last-image {
     margin-left: 1px;
