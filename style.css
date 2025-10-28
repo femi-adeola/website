@@ -7,25 +7,25 @@ body {
 
 .header {
   background-color: #0d0d2b;
-  width: 100%;
+  padding: 0 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.left-section {
-  margin: auto;
-  margin-top: 40px;
+.header img {
+  width: 200px;
 }
 
-.right-section {
-  margin: auto;
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
+
 .button-1 {
-  height: 30px;
   border: none;
   background-color: transparent;
-  margin-top: 40px;
   font-size: 15px;
   color: white;
 }
@@ -40,15 +40,17 @@ body {
 }
 
 .body-2 {
-  width: 100%;
+  padding: 0 5%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  gap: 40px;
   background-color: #0d0d2b;
 }
 
 .left-sectioned {
-  margin: auto;
+  width: 50%;
 }
 
 .camping-div {
@@ -91,12 +93,12 @@ body {
   color: white;
   width: 100%;
   font-size: 70px;
-  font-weight: 900px;
+  font-weight: 700;
 }
 
 .paragraph-2 {
   color: white;
-  line-height: 1.8ss;
+  line-height: 1.8;
 }
 
 .button-3 {
@@ -109,11 +111,6 @@ body {
   border-color: transparent;
 }
 
-.right-sectioned {
-  margin-top: 50px;
-  margin: auto;
-}
-
 .second-image {
   background-color: #0d0d2b;
 }
@@ -122,6 +119,7 @@ body {
   background-color: #0d0d2b;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   padding-bottom: 100px;
   padding-top: 100px;
@@ -129,8 +127,7 @@ body {
 
 .left {
   display: flex;
-  align-items:center
-
+  align-items: center;
 }
 .middle {
   display: flex;
@@ -164,23 +161,16 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin: auto;
-  padding-left: 90px;
-  max-width: 100%;
-  gap: 100px;
-}
-.left-sections {
-  margin: auto;
-  height: auto;
+  padding: 0 5%;
+  gap: 50px;
 }
 
-.illustration-3 {
-  margin: auto;
+.body-3 .left-sectionss {
+  width: 50%;
 }
 
 .right-sections {
-  margin: auto;
-  padding-right: 50px;
+  width: 50%;
 }
 
 .paragraph-3 {
@@ -209,8 +199,6 @@ body {
 }
 
 .middle-section {
-  padding-left: 600px;
-  padding-right: 600px;
   padding-top: 220px;
   padding-bottom: 150px;
   background-color: #0d0d2b;
@@ -223,6 +211,7 @@ body {
   padding-left: 25px;
   background-color: #0d0d2b;
   white-space: nowrap;
+  text-align: center;
 }
 
 .paragraph-6 {
@@ -231,6 +220,7 @@ body {
   padding-right: 25px;
   line-height: normal;
   white-space: nowrap;
+  text-align: center;
 }
 
 .paragraph-7 {
@@ -242,19 +232,31 @@ body {
   font-size: 14px;
 }
 
+.new-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
 .white-overlay {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 550px;
-  margin-left: 550px;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-bottom: 70px;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
   padding-top: 35px;
   margin-top: -8rem;
   background-color: white;
   border-radius: 19px;
+}
+
+.input-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 200px;
+  padding-left: 20px;
 }
 
 .item3 {
@@ -269,8 +271,12 @@ body {
 }
 
 .revenue {
-  margin-left: 600px;
-  margin-top: 5px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  
 }
 
 .time {
@@ -291,33 +297,29 @@ body {
   font-weight: bold;
 }
 
+.price-container{
+  display: flex;
+  gap: 10px;
+}
+
 .condition {
   color: rgb(70, 70, 70);
 }
 
 .trade {
-  margin-left: 600px;
   font-weight: bold;
   font-size: 40px;
-  margin-right: 500px;
   white-space: nowrap;
-  margin-top: 180px;
-}
-
-.trade-2 {
-  margin-left: 700px;
-  font-weight: bold;
-  font-size: 40px;
-  margin-right: 550px;
-  margin-top: -2rem;
-  white-space: nowrap;
+  margin-top: 80px;
+  text-align: center;
+  color: rgb(8, 8, 71);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .coin {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto;
 }
 
 .bitcoin {
@@ -333,16 +335,15 @@ body {
   padding-bottom: 45px;
 }
 
-
-.newss{
-  padding-right: 62px;
+.newss {
+  padding-right: 2px;
 }
 
-.main {
+.mainss {
   color: white;
-  
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
+  padding-left: 30px;
 }
 
 .aux {
@@ -356,7 +357,6 @@ body {
 .btc-paragraph2 {
   color: white;
   padding-left: 41px;
-  
 }
 
 .btc-button {
@@ -379,17 +379,13 @@ body {
   padding-top: 22px;
 }
 
-
-
-.bit{
+.bit {
   padding-top: 12px;
   padding-left: 12px;
-
 }
 
-.minings{
-  
-  line-height: 2px
+.minings {
+  line-height: 2px;
 }
 
 .Etherum {
@@ -400,34 +396,30 @@ body {
 }
 
 .coin-image {
-padding-bottom:45px;
- 
+  padding-bottom: 45px;
 }
-.new{
-  padding-right: 62px;
+.new {
+  padding-right: 2px;
 }
 
-.main{
-   color: black;
-   margin-left: 65px;
-   font-weight: bold;
-   font-size: 35px;
-   padding-left: 30px;
-
+.main {
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 30px;
 }
 
 .aux {
   color: rgb(110, 107, 107);
   padding-bottom: 160px;
   font-size: 13px;
-  
 }
 
 .paragraph {
   font-size: 18px;
 }
 
-.paragraph2{
+.paragraph2 {
   font-size: 18px;
   padding-left: 18px;
 }
@@ -439,12 +431,12 @@ padding-bottom:45px;
   padding: 30px;
 }
 
-.paragraphs{
+.paragraphs {
   font-size: 18px;
-  padding-left: 14px ;
+  padding-left: 14px;
 }
-.news{
-  padding-right: 62px;
+.news {
+  padding-right: 2px;
 }
 
 .last-body {
@@ -457,17 +449,11 @@ padding-bottom:45px;
   font-weight: bold;
   font-size: 45px;
   padding-top: 150px;
-  margin-left: 600px;
+  text-align: center;
+  
 }
 
-.topic-two {
-  color: white;
-  font-weight: bold;
-  font-size: 45px;
-  margin-left: 650px;
-}
- 
-.invest-bitcoin{
+.invest-bitcoin {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -476,9 +462,9 @@ padding-bottom:45px;
   padding-top: 50px;
 }
 
-.topic-1, 
+.invest-bitcoin .topic-1,
 .topic-11,
-.topic-111{
+.topic-111 {
   font-size: 40px;
   color: white;
   font-weight: bold;
@@ -487,37 +473,39 @@ padding-bottom:45px;
 
 .topic-2,
 .topic-22,
-.topic-222{
+.topic-222 {
   color: white;
   padding-bottom: 25px;
 }
 
 .new-one,
-.new-two,
-.new-three{
-  height: 400px;
+.new-two {
+  width: 400px;
+  height: 300px;
+}
+
+.new-three {
   width: 500px;
-  padding-top: 50px;
+  height: 300px;
 }
 
 
 .learn-more {
-   background-color: rgb(67, 67, 165);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 25px;
-    padding-left: 25px;
-    border-radius: 45px;
-    border-color: transparent;
-    color: white;
-    font-size: 10px;
-    margin-top: 5px;
-    white-space: nowrap;
-  }
+  background-color: rgb(67, 67, 165);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 45px;
+  border-color: transparent;
+  color: white;
+  font-size: 10px;
+  margin-top: 5px;
+  white-space: nowrap;
+}
 
-
-.detailed-statistic{
-   display: flex;
+.detailed-statistic {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -525,28 +513,25 @@ padding-bottom:45px;
   padding-top: 50px;
 }
 
-
-.grow-profit{
-   display: flex;
+.grow-profit {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 40px;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
-
- 
 
 .start {
   padding-top: 80px;
-  margin-left: 280px;
   margin-top: 0px;
-
 }
 
 .last-image {
   background-color: rgba(13, 13, 43, 1);
   margin-top: 0px;
+  padding-left: 65px;
 }
 
 .overall-body {
@@ -594,8 +579,6 @@ padding-bottom:45px;
   margin-right: 25px;
 }
 
-
-
 @media only screen and (max-width: 768px) {
   body {
     max-width: 768px;
@@ -604,335 +587,324 @@ padding-bottom:45px;
     box-sizing: border-box;
   }
 
-  .header {
-    background-color: #0d0d2b;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
-  .left-sectioned {
-    margin: auto;
-    margin-top: 40px;
-  }
+  
 
-  .right-section {
-    margin: auto;
-  }
-  .button-1 {
-    height: 30px;
-    border: none;
-    background-color: transparent;
-    margin-top: 40px;
-    font-size: 15px;
-    color: white;
-    font-size: 10px;
-  }
-  .button-2 {
-    height: 25px;
-    background-color: rgb(109, 109, 245);
-    color: white;
-    padding-left: 18px;
-    padding-right: 18px;
-    border-radius: 25px;
-    border-bottom: transparent;
-    border-right: transparent;
-  }
+.header {
+  background-color: #0d0d2b;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  .body-2 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #0d0d2b;
-    padding-top: 50px;
-    align-items: center;
-  }
+.header img {
+  width: 200px;
+}
 
-  .left-sectioned {
-    align-items: center;
-    margin-left: 70px;
-  }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
-  .camping-div {
-    position: relative;
-    margin-top: 1px;
-    padding-left: 0px;
-    width: 320px;
-  }
+.button-1 {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: white;
+}
+.button-2 {
+  height: 40px;
+  background-color: rgb(109, 109, 245);
+  color: white;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 25px;
+  border-color: transparent;
+}
 
-  .camped-div1 {
-    top: 0;
-    position: absolute;
-    background-color: white;
-    border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 15px;
-    height: 16px;
-    padding-top: 5px;
-    text-align: center;
-    color: #22226b;
-    font-size: 15px;
-  }
+.body-2 {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #0d0d2b;
+}
 
-  .camped-div2 {
-    position: relative;
-    background-color: #21213a;
-    margin-left: 78px;
-    padding-left: 2px;
-    padding-right: 9px;
-    padding-top: 5px;
-    border-radius: 15px;
-    height: 16px;
-    padding-top: 5px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-  }
+.left-sectioned {
+  width: 50%;
+}
 
-  .paragraph-1 {
-    margin-top: 50px;
-    color: white;
-    width: 100%;
-    font-size: 40px;
-    font-weight: 900px;
-  }
+.camping-div {
+  position: relative;
+  margin-top: 100px;
+  padding-left: 0px;
+  width: 330px;
+}
 
-  .paragraph-2 {
-    color: white;
-    line-height: 1.8ss;
-    font-size: 10px;
-  }
+.camped-div1 {
+  top: 0;
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 20px;
+  height: 26px;
+  padding-top: 5px;
+  text-align: center;
+  color: #22226b;
+}
 
-  .button-3 {
-    color: white;
-    background-color: rgb(92, 92, 240);
-    height: 32px;
-    margin-top: 30px;
-    border-radius: 40px;
-    width: 110px;
-    border-bottom: transparent;
-    border-right: transparent;
-  }
+.camped-div2 {
+  position: relative;
+  background-color: #21213a;
+  margin-left: 78px;
+  padding-left: 40px;
+  padding-right: 15px;
+  padding-top: 5px;
+  border-radius: 15px;
+  height: 26px;
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+}
 
-  .right-sectioned {
-    padding-top: 50px;
-    margin: auto;
-    width: 50%;
-    background-color: #0d0d2b;
-  }
+.paragraph-1 {
+  margin-top: 50px;
+  color: white;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 700;
+}
 
-  .second-image {
-    height: 400px;
-    width: 300px; 
-  }
+.paragraph-2 {
+  color: white;
+  line-height: 1.8;
+}
 
-  .header-2 {
-     background-color: #0d0d2b;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
+.button-3 {
+  color: white;
+  background-color: rgb(92, 92, 240);
+  height: 42px;
+  margin-top: 30px;
+  border-radius: 40px;
+  width: 120px;
+  border-color: transparent;
+}
 
-  .left {
-    display: flex;
-    align-items: center;
-   
-  }
-  .middle {
-    display: flex;
-    align-items: center;
-    
-  }
-  .right {
-    display: flex;
-    align-items: center;
-   
-  }
+.second-image {
+  background-color: #0d0d2b;
+}
 
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-  }
+.header-2 {
+  background-color: #0d0d2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 
-  .main-text {
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 8px;
-  }
+.left {
+  display: flex;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
 
-  .sub-text {
-    color: rgb(134, 120, 120);
-    font-size: 10px;
-  }
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
 
-  .icon-1 {
-    height: 50px;
-  }
+.main-text {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
 
-  .body-3 {
-    background-color: #0d0d2b;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    max-width: 100%;
-  }
-  .left-sectionss {
-    margin: auto;
-    height: auto;
-  }
-  .illustration-3 {
-    height: 300px;
-    width: 300px;
-  }
+.sub-text {
+  color: rgb(134, 120, 120);
+}
 
-  .right-sections {
-    margin: auto;
-  }
+.body-3 {
+  background-color: #0d0d2b;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 5%;
+  gap: 50px;
+}
 
-  .paragraph-3 {
-    font-weight: bold;
-    color: white;
-    font-size: 30px;
-    margin-top: 40px;
-  }
+.body-3 .left-sectionss {
+  width: 50%;
+}
 
-  .paragraph-4 {
-    color: white;
-    font-size: 12px;
-  }
+.right-sections {
+  width: 50%;
+}
 
-  .button-4 {
-    background-color: #3671e9;
-    color: white;
-    margin-top: 20px;
-    height: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 40px;
-    font-size: 15px;
-    padding-top: 7px;
-    padding-bottom: 10px;
-    border-bottom: transparent;
-    border-right: transparent;
-  }
+.paragraph-3 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin-top: 80px;
+}
 
-  .middle-section {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 220px;
-    padding-bottom: 150px;
-    background-color: #0d0d2b;
-  }
+.paragraph-4 {
+  color: white;
+  font-size: 15px;
+}
 
-  .paragraph-5 {
-    color: white;
-    font-weight: bold;
-    font-size: 40px;
-    white-space: nowrap;
-    background-color: #0d0d2b;
-  }
+.button-4 {
+  background-color: #3671e9;
+  color: white;
+  margin-top: 20px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 40px;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
 
-  .paragraph-6 {
-    color: white;
-    margin-left: 5px;
-    white-space: nowrap;
-  }
+.middle-section {
+  padding-top: 220px;
+  padding-bottom: 150px;
+  background-color: #0d0d2b;
+}
 
-  .paragraph-7 {
-    color: white;
-    margin-left: 140px;
-    margin-top: 1px;
-    margin-bottom: 60px;
-    white-space: nowrap;
-  }
+.paragraph-5 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 25px;
+  background-color: #0d0d2b;
+  white-space: nowrap;
+  text-align: center;
+}
 
-  .white-overlay {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
-    padding-bottom: 125px;
-    padding-top: 35px;
-    margin-top: -8rem;
-    background-color: white;
-    border-radius: 19px;
-  }
-  .item1 {
-    white-space: nowrap;
-  }
+.paragraph-6 {
+  color: white;
+  padding-left: 85px;
+  padding-right: 25px;
+  line-height: normal;
+  white-space: nowrap;
+  text-align: center;
+}
 
-  .item3 {
-    background-color: #3671e9;
-    color: white;
-    height: 40px;
-    width: 100px;
-    font-size: 13px;
-    border-radius: 30px;
-    border-bottom: transparent;
-    border-right: transparent;
-    border-top: transparent;
-    border-left: transparent;
-  }
+.paragraph-7 {
+  color: white;
+  margin-left: 140px;
+  margin-top: 1px;
+  margin-bottom: 60px;
+  white-space: nowrap;
+  font-size: 14px;
+}
 
-  .revenue {
-    margin-left: 160px;
-    margin-top: 1px;
-    padding-top: 12px;
-  }
+.new-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
-  .time {
-    color: #375797;
-    margin-bottom: 30px;
-    margin-top: -5rem;
-    font-weight: bold;
-  }
+}
 
-  .price {
-    color: rgb(5, 5, 36);
-    font-weight: bold;
-    font-size: 30px;
-  }
-
-  .dollar {
-    color: #3671e9;
-    font-size: 30px;
-    font-weight: bold;
-  }
-
-  .condition {
-    color: rgb(70, 70, 70);
-    font-size: 12px;
-  }
-
-  .trade {
-    margin-left: 160px;
-    font-weight: bold;
-    font-size: 30px;
-    margin-right: 5px;
-    white-space: nowrap;
-  }
-
-  .trade-2 {
-    font-weight: bold;
-    font-size: 30px;
-    margin: auto;
-    padding-left: 200px;
-  }
-
-
-.coin {
+.white-overlay {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 70px;
+  width: 800px;
+  padding-top: 35px;
+  margin-top: -8rem;
+  background-color: white;
+  border-radius: 19px;
+}
+
+.input-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 200px;
+  padding-left: 20px;
+}
+
+.item3 {
+  background-color: #3671e9;
+  color: white;
+  height: 50px;
+  width: 140px;
+  font-size: 17px;
+  border-radius: 30px;
+  border-right: transparent;
+  border-bottom: transparent;
+}
+
+.revenue {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  
+}
+
+.time {
+  color: #375797;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.price {
+  color: rgb(5, 5, 36);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.dollar {
+  color: #3671e9;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.price-container{
+  display: flex;
+  gap: 10px;
+}
+
+.condition {
+  color: rgb(70, 70, 70);
+}
+
+.trade {
+  font-weight: bold;
+  font-size: 40px;
+  white-space: nowrap;
+  margin-top: 80px;
+  text-align: center;
+  color: rgb(8, 8, 71);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.coin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .bitcoin {
@@ -942,22 +914,21 @@ padding-bottom:45px;
   border-radius: 20px;
   background-color: rgb(26, 26, 94);
   padding: 30px;
-
 }
 
 .btc-image {
   padding-bottom: 45px;
 }
 
-
-.newss{
-  padding-right: 62px;
+.newss {
+  padding-right: 2px;
 }
 
-.main {
-  color: red;
+.mainss {
+  color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
+  padding-left: 30px;
 }
 
 .aux {
@@ -971,7 +942,6 @@ padding-bottom:45px;
 .btc-paragraph2 {
   color: white;
   padding-left: 41px;
-  
 }
 
 .btc-button {
@@ -994,17 +964,13 @@ padding-bottom:45px;
   padding-top: 22px;
 }
 
-
-
-.bit{
+.bit {
   padding-top: 12px;
   padding-left: 12px;
-
 }
 
-.minings{
-  
-  line-height: 2px
+.minings {
+  line-height: 2px;
 }
 
 .Etherum {
@@ -1015,34 +981,30 @@ padding-bottom:45px;
 }
 
 .coin-image {
-padding-bottom:45px;
- 
+  padding-bottom: 45px;
 }
-.new{
-  padding-right: 62px;
+.new {
+  padding-right: 2px;
 }
 
-.main{
-   color: black;
-   margin-left: 65px;
-   font-weight: bold;
-   font-size: 35px;
-   padding-left: 30px;
-
+.main {
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 30px;
 }
 
 .aux {
   color: rgb(110, 107, 107);
   padding-bottom: 160px;
   font-size: 13px;
-  
 }
 
 .paragraph {
   font-size: 18px;
 }
 
-.paragraph2{
+.paragraph2 {
   font-size: 18px;
   padding-left: 18px;
 }
@@ -1054,50 +1016,40 @@ padding-bottom:45px;
   padding: 30px;
 }
 
-.paragraphs{
+.paragraphs {
   font-size: 18px;
-  padding-left: 14px ;
+  padding-left: 14px;
 }
-.news{
-  padding-right: 62px;
+.news {
+  padding-right: 2px;
 }
+
+.last-body {
+  background-color: rgba(43, 7, 110, 1);
+  margin-top: 150px;
+}
+
+.first-topic {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  padding-top: 150px;
+  text-align: center;
   
+}
 
-  .last-body {
-    background-color: rgba(43, 7, 110, 1);
-    margin-top: 150px;
-  }
-
-  .first-topic {
-    color: white;
-    white-space: nowrap;
-    font-weight: bold;
-    font-size: 25px;
-    padding-top: 150px;
-    margin-left: 200px;
-  }
-
-  .topic-two {
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-    margin-left: 230px;
-  }
-  
-
-   
-.invest-bitcoin{
+.invest-bitcoin {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 40px;
   padding-top: 50px;
 }
 
-.topic-1, 
+.invest-bitcoin .topic-1,
 .topic-11,
-.topic-111{
+.topic-111 {
   font-size: 40px;
   color: white;
   font-weight: bold;
@@ -1106,134 +1058,114 @@ padding-bottom:45px;
 
 .topic-2,
 .topic-22,
-.topic-222{
+.topic-222 {
   color: white;
   padding-bottom: 25px;
 }
 
 .new-one,
-.new-two,
-.new-three{
-  height: 300px;
+.new-two {
   width: 400px;
-  padding-top: 50px;
+  height: 300px;
+}
+
+.new-three {
+  width: 500px;
+  height: 300px;
 }
 
 
 .learn-more {
-   background-color: rgb(67, 67, 165);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 25px;
-    padding-left: 25px;
-    border-radius: 45px;
-    border-color: transparent;
-    color: white;
-    font-size: 10px;
-    margin-top: 5px;
-    white-space: nowrap;
-    margin: auto;
-  }
+  background-color: rgb(67, 67, 165);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 45px;
+  border-color: transparent;
+  color: white;
+  font-size: 10px;
+  margin-top: 5px;
+  white-space: nowrap;
+}
 
-
-.detailed-statistic{
-   display: flex;
-  flex-direction: column;
+.detailed-statistic {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 40px;
   padding-top: 50px;
 }
 
-
-.grow-profit{
-   display: flex;
-  flex-direction: column;
+.grow-profit {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 40px;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-
-  .last-image {
-    margin-left: 1px;
-    margin-top: 150px;
-    max-width: 768px;
-    display: none;
-  }
-
-  .overall-body {
-    background-color: rgba(13, 13, 43, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .logos {
-    padding-bottom: 60px;
-  }
-
-  .nd {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .quick {
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom: 20px;
-  }
-
-  .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .third {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .resources {
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom: 15px;
-    margin-top: 32px;
-  }
-
-  .download {
-    margin-bottom: 12px;
-    font-size: 50px;
-  }
-
-  .final-image {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  
-
-  .we {
-    font-weight: bold;
-    font-size: 25px;
-    padding-bottom: 50px;
-  }
-
-  .mastercard {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
+.start {
+  padding-top: 80px;
+  margin-top: 0px;
 }
 
-@media only screen and (max-width: 640px){
+.last-image {
+  background-color: rgba(13, 13, 43, 1);
+  margin-top: 0px;
+  padding-left: 65px;
+}
+
+.overall-body {
+  background-color: rgba(13, 13, 43, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  padding: 200px 0;
+  margin-top: 0px;
+}
+
+.nd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resources {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.final-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.we {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.mastercard {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+}
+
+@media only screen and (max-width: 640px) {
   body {
     width: 100%;
     margin: 0;
@@ -1267,7 +1199,7 @@ padding-bottom:45px;
     color: white;
     font-size: 10px;
   }
-  
+
   .button-2 {
     height: 25px;
     background-color: rgb(109, 109, 245);
@@ -1382,13 +1314,11 @@ padding-bottom:45px;
     display: flex;
     align-items: center;
     padding-left: 30px;
- 
   }
 
   .middle {
     display: flex;
     align-items: center;
-    
   }
 
   .right {
@@ -1427,14 +1357,13 @@ padding-bottom:45px;
   }
 
   .left-sectionss {
-   margin: auto;
+    margin: auto;
     height: auto;
   }
-  
+
   .illustration-3 {
     height: 200px;
     width: 200px;
-
   }
 
   .right-sections {
@@ -1450,7 +1379,7 @@ padding-bottom:45px;
   }
 
   .paragraph-4 {
-    color:white;
+    color: white;
     font-size: 12px;
   }
 
@@ -1482,7 +1411,6 @@ padding-bottom:45px;
     font-size: 30px;
     white-space: nowrap;
     background-color: #0d0d2b;
-    margin-left: 100px;
   }
 
   .paragraph-6 {
@@ -1559,8 +1487,8 @@ padding-bottom:45px;
     color: rgb(70, 70, 70);
     font-size: 12px;
   }
-  
-  .trader{
+
+  .trader {
     margin-bottom: 50px;
   }
   .trade {
@@ -1577,144 +1505,133 @@ padding-bottom:45px;
     margin-left: -1rem;
     padding-right: 80px;
   }
-  
-  
-.coin {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-}
 
-.bitcoin {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  background-color: rgb(26, 26, 94);
-  padding: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  .coin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
 
-.btc-image {
-  padding-bottom: 45px;
-}
+  .bitcoin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(26, 26, 94);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
+  .btc-image {
+    padding-bottom: 45px;
+  }
 
-.newss{
-  padding-right: 62px;
-}
+  .newss {
+    padding-right: 62px;
+  }
 
-.main {
-  color: white;
-  
-  font-weight: bold;
-  font-size: 30px;
-}
+  .main {
+    color: white;
 
-.aux {
-  color: white;
-}
+    font-weight: bold;
+    font-size: 30px;
+  }
 
-.btc-paragraph {
-  color: white;
-}
+  .aux {
+    color: white;
+  }
 
-.btc-paragraph2 {
-  color: white;
-  padding-left: 41px;
-  
-}
+  .btc-paragraph {
+    color: white;
+  }
 
-.btc-button {
-  display: flex;
-  align-items: center;
-  background-color: rgb(117, 117, 231);
-  gap: 15px;
-  color: white;
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: large;
-  border-radius: 40px;
-  border-bottom: transparent;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 15px;
-  padding-top: 22px;
-}
+  .btc-paragraph2 {
+    color: white;
+    padding-left: 41px;
+  }
 
+  .btc-button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(117, 117, 231);
+    gap: 15px;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 40px;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 15px;
+    padding-top: 22px;
+  }
 
+  .bit {
+    padding-top: 12px;
+    padding-left: 12px;
+  }
 
-.bit{
-  padding-top: 12px;
-  padding-left: 12px;
+  .minings {
+    line-height: 2px;
+  }
 
-}
+  .Etherum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
 
-.minings{
-  
-  line-height: 2px
-}
+  .coin-image {
+    padding-bottom: 45px;
+  }
+  .new {
+    padding-right: 62px;
+  }
 
-.Etherum {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-}
+  .main {
+    color: black;
+    margin-left: 65px;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 30px;
+  }
 
-.coin-image {
-padding-bottom:45px;
- 
-}
-.new{
-  padding-right: 62px;
-}
+  .aux {
+    color: rgb(110, 107, 107);
+    padding-bottom: 160px;
+    font-size: 13px;
+  }
 
-.main{
-   color: black;
-   margin-left: 65px;
-   font-weight: bold;
-   font-size: 35px;
-   padding-left: 30px;
+  .paragraph {
+    font-size: 18px;
+  }
 
-}
+  .paragraph2 {
+    font-size: 18px;
+    padding-left: 18px;
+  }
 
-.aux {
-  color: rgb(110, 107, 107);
-  padding-bottom: 160px;
-  font-size: 13px;
-  
-}
+  .Litecoin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
 
-.paragraph {
-  font-size: 18px;
-}
-
-.paragraph2{
-  font-size: 18px;
-  padding-left: 18px;
-}
-
-.Litecoin {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-}
-
-.paragraphs{
-  font-size: 18px;
-  padding-left: 14px ;
-}
-.news{
-  padding-right: 62px;
-}
-
+  .paragraphs {
+    font-size: 18px;
+    padding-left: 14px;
+  }
+  .news {
+    padding-right: 62px;
+  }
 
   .last-body {
     background-color: rgba(43, 7, 110, 1);
@@ -1737,43 +1654,41 @@ padding-bottom:45px;
     margin-left: 150px;
   }
 
-     
-.invest-bitcoin{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  gap: 40px;
-  padding-top: 50px;
-}
+  .invest-bitcoin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+  }
 
-.topic-1, 
-.topic-11,
-.topic-111{
-  font-size: 40px;
-  color: white;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
+  .topic-1,
+  .topic-11,
+  .topic-111 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
 
-.topic-2,
-.topic-22,
-.topic-222{
-  color: white;
-  padding-bottom: 25px;
-}
+  .topic-2,
+  .topic-22,
+  .topic-222 {
+    color: white;
+    padding-bottom: 25px;
+  }
 
-.new-one,
-.new-two,
-.new-three{
-  height: 300px;
-  width: 400px;
-  padding-top: 50px;
-}
+  .new-one,
+  .new-two,
+  .new-three {
+    height: 300px;
+    width: 400px;
+    padding-top: 50px;
+  }
 
-
-.learn-more {
-   background-color: rgb(67, 67, 165);
+  .learn-more {
+    background-color: rgb(67, 67, 165);
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 25px;
@@ -1787,32 +1702,27 @@ padding-bottom:45px;
     margin: auto;
   }
 
+  .detailed-statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+  }
 
-.detailed-statistic{
-   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  gap: 40px;
-  padding-top: 50px;
-}
-
-
-.grow-profit{
-   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  gap: 40px;
-  padding-top: 50px;
-}
-
+  .grow-profit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+  }
 
   .last-image {
     margin-left: 1px;
     margin-top: 150px;
-    
-    
   }
   .start-now {
     height: 50px;
@@ -1884,4 +1794,4 @@ padding-bottom:45px;
     margin-left: 25px;
     margin-right: 25px;
   }
-
+}
