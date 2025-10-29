@@ -446,6 +446,7 @@ body {
 .last-body {
   background-color: rgba(43, 7, 110, 1);
   margin-top: 150px;
+  width: 100%;
 }
 
 .first-topic {
@@ -488,8 +489,8 @@ body {
 }
 
 .new-three {
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
 }
 
 .learn-more {
@@ -1149,11 +1150,10 @@ body {
   .paragraph-5 {
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 27px;
     white-space: nowrap;
     background-color: #0d0d2b;
     text-align: center;
-    padding-right: 20px;
   }
 
   .paragraph-6 {
@@ -1161,7 +1161,6 @@ body {
     white-space: nowrap;
     font-size: 12px;
     text-align: center;
-    padding-right: 40px;
   }
 
   .paragraph-7 {
@@ -1255,7 +1254,7 @@ body {
   }
   .trade {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .trade-2 {
@@ -1403,7 +1402,7 @@ body {
     color: white;
     white-space: nowrap;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
     padding-top: 150px;
     text-align: center;
   }
@@ -1453,11 +1452,11 @@ body {
   .new-two,
   .new-three {
     height: 300px;
-    width: 400px;
+    width: 300px;
     padding-top: 50px;
   }
 
-  .new-three{
+  .new-three {
     padding-bottom: 165px;
   }
 
@@ -1499,7 +1498,7 @@ body {
   .last-image {
     margin-left: 1px;
     margin-top: 150px;
-      display: none;
+    display: none;
   }
   .start-now {
     height: 50px;
